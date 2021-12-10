@@ -1,0 +1,283 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-color:black;color:white;
+    padding: 0 !important ;
+    
+}
+.navbar-brand
+{
+    height: 70px;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.logo
+{
+    opacity: 2.0;
+    height: 60px;
+    width: auto;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    text-align: right;
+}
+
+/* website banner */
+
+#banner
+{
+    background-color:white;color:black;
+    padding-top: 10% ;
+    padding-bottom: 23%;
+}
+
+.promo-title
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.promo-para
+{
+    font-size: 20px;
+}
+
+.image-fluid
+{
+    
+    padding-right: 100
+}
+
+/--------Services--------------/
+
+#services
+{
+background-image: linear-gradient(to bottom ,black 50% ,white 97%);
+color:white;
+}
+{
+    padding: 60px 0;
+}
+
+.services
+{
+    padding: 40px;
+}
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.service-image
+{
+   width: 300px;
+    margin-top: 5px;
+    padding-right: px;
+}
+
+.title::before
+{
+    content: '';
+    background:black ;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after
+{
+    content: '';
+    background:black;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#240a0f 10% , black 87%);
+}
+
+/---------------------about-us -------------/
+
+#about-us
+{
+    background-color:white;color:black;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%; 
+}
+
+#about-us ul li
+{
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.about-image
+{
+    padding-top: 0%;
+}
+
+
+/---------------------products-------------/
+
+#products
+{
+background-color:white;color:black;
+    padding: 60px 0;
+ padding-bottom: 50px;
+}
+
+#products .btn-primary
+{
+    box-shadow: black;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to left ,#240a0f 10% ,white87%);
+}
+
+#products .row
+{
+    margin-top: 30px;
+}
+
+#products .card
+{
+background-image: linear-gradient(to right ,#240a0f 10% , black 87%);
+color:white;
+    width: 200%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/---------------testimonials-------------/
+
+#testimonials
+{
+    background-color:white;color:black;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#testimonials .row
+{
+
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.testimonials
+{
+
+    border-left: 5px solid teal ;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+/---------------contact us-------------/
+
+#contact
+{
+   background-color:white;color:black;
+    padding-top: 60px;
+    padding-bottom: 50px
+}
+
+#contact p 
+{
+    font-size: 36px;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+background-color:white;color:black;
+    width: 60px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform:translateY(-20px);
+}
+
+/--------------- footer -------------/
+
+#footer
+{
+     background-color:black;color:white;
+    
+}
+
+.footer-box
+{
+    padding: 20px;
+    margin-left: 100px;
+}
+.footer-box img
+{
+    width: 30px;
+    margin-bottom: px;
+}
+.footer-title
+{
+ font-size: 20px;
+}
+
+
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
